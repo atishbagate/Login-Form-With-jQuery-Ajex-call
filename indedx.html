@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contianer">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 form_continers">
+            <form class="formcontiner" id="form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputFname">First Name</label>
+                        <input type="text" class="form-control" id="inputFname" placeholder="enter first name"
+                            name="inputFname">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputLname">Last name</label>
+                            <input type="text" class="form-control" id="inputLname" placeholder="enter Last name"
+                                name="inputLname">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="enter email"
+                                    name="inputEmail">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" class="form-control" id="inputPassword"
+                                    placeholder="enter password" name="inputPassword">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"
+                                name="address1">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2">LandMark/locality</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor" name="address2">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity" name="city">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control" name="state">
+                                    <option selected>Choose...</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Punjab">Punjab</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip" name="Zip">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" name="terms">
+                                <label class="form-check-label" for="gridCheck">
+                                    Agree T&C
+                                </label>
+                            </div>
+                        </div>
+                        <input class="btn btn-primary" id="submit-button" type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js"></script>
+    <!-- using additional methods from src/additional methods -->
+    <script src="./validation.js"></script>
+    <script src="./ajax.js"></script>
+
+</body>
+</body>
+
+</html>

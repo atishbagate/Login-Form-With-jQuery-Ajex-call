@@ -1,0 +1,9 @@
+
+.formcontiner{
+    border:  2px solid rgba(241, 27, 27, 0.767);
+    border-radius: 10px;
+    margin-top: 6rem;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 10px 15px #888888;
+}
